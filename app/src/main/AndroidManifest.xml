@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="enable.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Menu.QueroReceberSolicitationActivity"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Menu.MsgActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Menu.SendMsgActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Menu.QueroReceberConfimedActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Menu.QueroReceberRegistredActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Menu.QueroImprimirConfirmarDoacaoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroImprimirConfirmarDoacaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroImprimirTermInputDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroImprimirTermActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroImprimirActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroReceberTermActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroReceberTermInputDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.QueroReceberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Initial.COVID19Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.HealthCare.HealthCareProfessionalPatientDetailActivity" />
+        <activity android:name=".Alert.MsgCustomActivity" />
+        <activity android:name=".User.HealthCare.HealthCareProfessionalCreateActivity" />
+        <activity android:name=".User.UserProfileAuthenticationActivity" />
+        <activity
+            android:name=".Alert.AlertErrorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Alert.MsgActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.UserBenefitedQuestionLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.UserBenefitedQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.UserAuthenticationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="true" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="true" />
+
+</manifest>

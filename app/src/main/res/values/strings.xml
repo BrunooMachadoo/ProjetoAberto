@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">e-NABLE App</string>
+    <string name="textView_UserAuthenticationActivity_CPF">CPF:</string>
+    <string name="editText_UserAuthenticationActivity_CPF">Informe o CPF</string>
+    <string name="textView_UserAuthenticationActivity_Password">Senha:</string>
+    <string name="editText_UserAuthenticationActivity_Password">Informe a Senha</string>
+    <string name="button_UserAuthenticationActivity_User_Create">Quero solicitar uma prótese</string>
+    <string name="button_UserSelectProfileActivity_Professional_Health">Sou um profissional médico</string>
+    <string name="button_UserSelectProfileActivity_Benefited">Gostaria de receber o benefício</string>
+    <string name="textView_UserBenefitedNameActivity_Question">Olá tudo bom ?, primeiro eu gostaria de saber o seu nome.</string>
+    <string name="editText_UserBenefitedNameActivity_name_hit">Digite o seu nome aqui.</string>
+    <string name="button_Next">PRÓXIMA ETAPA</string>
+    <string name="button_Save">SALVAR</string>
+    <string name="textView_UserBenefitedStartActivity_Title">Parabéns você concluiu</string>
+    <string name="button_UserBenefitedStartActivity_Resume">CONTINUAR PREENCHIMENTO</string>
+    <string name="editText_UserBenefitedEmailActivity_name_hit">Digite o seu e-mail aqui.</string>
+    <string name="button_Closed">Fechar</string>
+    <string name="textView_UserBenefitedQuestionLoadActivity_Mag">Salvando os dados, aguarde...</string>
+    <string name="TextView_UserBenefitedQuestionActivity_Question_Date">Selecione a data</string>
+    <string name="button_UserAuthenticationActivity_User_Attendance">Quero ser voluntário da área de saude</string>
+    <string name="textView_UserProfileAuthentication_HelpText">Será necessário realizar a autenticação para continuar</string>
+    <string name="textView_UserProfileAuthentication_Identification">CPF:</string>
+    <string name="textView_UserProfileAuthentication_Password">Senha:</string>
+    <string name="button_UserProfileAuthentication_Enter">Entrar</string>
+    <string name="button_UserProfileAuthentication_Create">Criar Conta</string>
+    <string name="textView_HealthCareProfessionalCreateActivity_HelpText">Cadastro de profissional de saúde</string>
+    <string name="textView_HealthCareProfessionalCreateActivity_Identification">CPF</string>
+    <string name="textView_HealthCareProfessionalCreateActivity_NameComplete">Nome Completo</string>
+    <string name="textView_HealthCareProfessionalCreateActivity_MedicalLicence">Licença Médica</string>
+    <string name="button_HealthCareProfessionalCreateActivity_Create">Cadastrar</string>
+    <string name="textView_HealthCareProfessionalPatientDetailActivity_NameComplete">Paulo José da Silva Medeiros</string>
+    <string name="textView_HealthCareProfessionalPatientDetailActivity_Age">Ideade: 16 Anos</string>
+    <string name="textView_HealthCareProfessionalPatientDetailActivity_Distance">10 km de distância</string>
+    <string name="button_HealthCareProfessionalPatientDetailActivity_Detail">Ver detalhes do paciente</string>
+    <string name="button_COVID19Activity_QueroReceber">Quero Receber</string>
+    <string name="button_COVID19Activity_QueroImprimir">Quero Imprimir</string>
+    <string name="button_QueroImprimirActivity_Cadastro">Cadastro</string>
+    <string name="textView_QueroImprimirTermActivity">Termo de Aceite</string>
+    <string name="button_QueroImprimirActivity_ConfirmarDoacao">Confirmar Doação</string>
+    <string name="button_UserProfileAuthentication_Accept">Aceitar</string>
+    <string name="textView_QueroImprimirTermInputDataActivity">Informe os dados abaixo</string>
+    <string name="textView_QueroImprimirTermInputDataActivity_Name">Nome</string>
+    <string name="editText_QueroImprimirTermInputDataActivity_Name">Informe o seu nome</string>
+    <string name="textView_QueroImprimirTermInputDataActivity_CPF">CPF</string>
+    <string name="editText_QueroImprimirTermInputDataActivity_CPF">Informe o seu CPF</string>
+    <string name="textView_QueroImprimirTermInputDataActivity_Phone">Telefone</string>
+    <string name="editText_QueroImprimirTermInputDataActivity_Phone">Informe o seu telefone</string>
+    <string name="textView_QueroImprimirConfirmarDoacaoActivity_Qtd">Quantas unidades você doou ?</string>
+    <string name="editText_QueroImprimirConfirmarDoacaoActivity_Qtd">Informe a quantidade</string>
+    <string name="button_QueroImprimirConfirmarDoacaoActivity_Confirmed">Confirmar</string>
+    <string name="button_QueroImprimirTermInputDataActivity_Accept">Eu aceito no termo de responsabilidade</string>
+    <string name="textView_QueroImprimirActivity">Quero Imprimir</string>
+    <string name="textView_QueroReceberActivity">Quero Receber</string>
+    <string name="button_QueroReceberActivity_Cadastro">Cadastro</string>
+    <string name="textView_QueroReceberRegistredActivity">
+        SOLICITAÇÃO DE CADASTRO PARA RECEBIMENTO DE ESCUDO FACIAL
+    \n\nCadastre aqui o órgão / unidade de saúde PÚBLICA que necessita de Escudos Faciais como EPI para o atendimento de paciente com COVID-19
+
+\n\nATENÇÃO: O CADASTRO NÃO É GARANTIA DE RECEBIMENTO DO MATERIAL MAS AJUDA A EXPOR A NECESSIDADE E MOBILIZAR VOLUNTÁRIOS NA SUA REGIÃO
+    </string>
+    <string name="textView_QueroImprimirConfirmarDoacaoListActivity">Selecione para quem realizou a doação:</string>
+    <string name="button_QueroImprimirActivity_AreaPrint">Área de impressão</string>
+    <string name="textView_QueroReceberRegistredActivity_Email">Endereço de e-mail</string>
+    <string name="editText_QueroReceberRegistredActivity_Email">Digite o e-mail de contato</string>
+    <string name="textView_QueroReceberRegistredActivity_InstituteName">Nome da Instituição</string>
+    <string name="editText_QueroReceberRegistredActivity_InstituteName">Digite o nome da instituição</string>
+    <string name="radioButton_Public">Instituição Pública</string>
+    <string name="radioButton_Private">Instituição Privada</string>
+    <string name="textView_QueroReceberRegistredActivity_Institute">Sua instituição é Pública ou Privada</string>
+    <string name="button_QueroReceberActivity_ConfirmarRecebimento">Confirmar recebimento</string>
+    <string name="textView_QueroReceberRegistredActivity_Utilizacao">Os dispositivos são para distribuição ou uso próprio?</string>
+    <string name="radioButton_Distribuicao">Distribuição</string>
+    <string name="radioButton_Proprio">Uso próprio</string>
+    <string name="textView_QueroReceberRegistredActivity_Resume">Escreva um pequeno resumo para ser compartilhado com os voluntários</string>
+    <string name="editText_QueroReceberRegistredActivity_Resume">Digite um pequeno resumo</string>
+    <string name="textView_QueroReceberRegistredActivity_Endereco">Endereço para envio das doações</string>
+    <string name="editText_QueroReceberRegistredActivity_Endereco">Digite o endereço</string>
+    <string name="textView_QueroReceberRegistredActivity_CEP">Qual o CEP (apenas números)?</string>
+    <string name="editText_QueroReceberRegistredActivity_CEP">Digite o CEP</string>
+    <string name="radioButton_Possibilidade_Sim">Sim</string>
+    <string name="radioButton_Possibilidade_Nao">Não</string>
+    <string name="textView_QueroReceberRegistredActivity_Possibilidade">Existe possibilidade da instituição recolher os escudos faciais diretamente com o voluntário/doador?</string>
+    <string name="textView_QueroImprimirTermActivity_Text">
+        TERMOS E CONDIÇÕES DE USO E ISENÇÃO DE RESPONSABILIDADE\n\n
+
+    1.Informações Legais Importantes\n\n
+
+Leia atentamente estes Termos e Condições de Uso (“Termos e Condições”). A E-NABLE BRASIL é a proprietária e operadora deste website (“Site”) e opera em parceria com a PRUSA RESEARCH a.s. no intuito de apoiar o momento de crise mundial diante do COVID-19 disponibilizando o modelo oficial para impressão 3D aos seus voluntários associados. Ao ler estes Termos e Condições e clicar no botão “Concordo”, está indicando expressamente que os entende, que pretende que eles sejam equivalentes a um contrato escrito assinado e também que aceita os termos de uso conforme aqui definidos e compromete-se a ser legalmente obrigado por eles. Caso não concorde com estes Termos e Condições, você não terá o direito de acessar este site e nenhuma de suas páginas.
+\n\n
+As informações apresentadas neste site não se destinam a distribuição ou uso por qualquer pessoa física ou jurídica em qualquer jurisdição onde tal distribuição ou uso infrinja qualquer lei ou regulamento, ou sujeite a E-NABLE BRASIL ou qualquer de seus serviços a qualquer exigência de autorização, registro, licenciamento ou notificação em qualquer jurisdição no Brasil. Essa área do site brasileiro foi criado para fins informativos, de captação de voluntários, doadores e serviços de saúde sob necessidade diante da Pandemia Mundial, destina-se a ser acessado e usado apenas por voluntários que tenham o intuito de cooperar na impressão de escudos faciais 3D para doação  e uso de profissionais de saúde.
+\n\n
+    2.Reserva de direitos\n\n
+
+Reservamo-nos o direito de, a qualquer momento e a nosso exclusivo critério, alterar, modificar, incluir ou excluir partes destes Termos e Condições. Cada vez que alterarmos, modificarmos, incluirmos ou excluirmos partes destes Termos e Condições, será solicitado que você leia a nova versão e clique no botão “Concordo” para confirmar que está de acordo com os novos Termos e Condições, e para que possa continuar a usar o Site. Você não terá permissão para usar o Site caso não concorde com tais alterações, modificações, inclusões ou exclusões.
+\n\n
+    3.Uso do Conteúdo\n\n
+
+O Conteúdo (conforme definido a seguir) deste Site está disponível para fins meramente informativos. A postagem do Conteúdo e o acesso ao Site com conteúdo da PRUSA não constituem, explícita ou implicitamente, qualquer fornecimento de serviços ou produtos pela E-NABLE BRASIL.
+\n\n
+    4.Direitos autorais\n\n
+
+O site pra qual você está sendo direcionado (incluindo seu conteúdo e arquivos), os computadores onde ele está hospedado e o conteúdo fornecido por ele, inclusive qualquer texto, música ou som, gráficos, imagens, fotografias, áudio e vídeo, filmagens, animações, podcasts, análises, estudos, relatórios e material para download (coletivamente, o “Conteúdo”) são de propriedade exclusiva da PRUSA RESEARCH a.s., ou licenciados por seus colaboradores através do Creative Commons com licença não comercial, e protegidos por lei. A E-NABLE BRASIL não concede a você quaisquer direitos expressos ou implícitos. Todos os direitos sobre as páginas e o Conteúdo do Site são de propriedade da PRUSA ou de seus respectivos licenciadores. Você se compromete a não vender, distribuir, publicar, transmitir, circular ou explorar comercialmente o Conteúdo do Site por qualquer meio sem a prévia autorização por escrito da E-NABLE BRASIL E PRUSA RESEARCH a.s. conjuntamente. O download ou outra forma de cópia deste Site não transfere para você a propriedade de qualquer software ou material.
+\n\n
+    5.Autorização de uso do Site\n\n
+
+Ao ler e aceitar estes Termos e Condições, a E-NABLE BRASIL autoriza você a usar o Site para o qual você está sendo direcionado, autorização esta condicionada à sua aceitação e conformidade permanente com os referidos Termos e Condições. Partes limitadas do Conteúdo disponível nas áreas públicas do Site poderão ser acessadas, impressas ou baixadas ocasionalmente para fins pessoais, acadêmicos, de pesquisa ou não comerciais, desde que todas as cópias impressas contenham todos os avisos de direitos autorais e outros avisos de propriedade incluídos em tal conteúdo e informações e/ou a atribuição adequada à PRUSA em forma e maneira aceitável para nós. Qualquer uso não autorizado deste Site ou do Conteúdo cancelará a autorização aqui concedida e poderá infringir a legislação pertinente, inclusive leis de direitos autorais, de propriedade, leis e regulamentos comerciais.
+\n\n
+    6.Isenção de responsabilidades\n\n
+
+Nem a E-NABLE, nem a PRUSA RESEARCH a.s. e nem qualquer de seus voluntários e colaboradores, ou qualquer fornecedor externo, serão responsáveis ou terão qualquer responsabilidade, seja contratual, civil, objetiva ou de qualquer outra natureza por qualquer indenização direta, indireta, incidental, consequencial, punitiva ou especial, decorrente ou por qualquer forma conectada ao seu acesso ou uso, ou impossibilidade de acesso ou uso, do Site, de sua dependência do Conteúdo ou de qualquer falha de funcionamento, interrupção, defeito, atraso na transmissão, vírus de computador ou outros componentes prejudiciais, bem como por falha de linha ou sistema associados ao Site, independentemente de quaisquer dessas circunstâncias ser de nosso conhecimento ou não.
+\n\n
+
+
+    7.Acontecimentos fora do controle da E-NABLE BRASIL\n\n
+
+Você exime e libera expressamente a E-NABLE BRASIL de qualquer queixa resultante de danos decorrentes de causas fora de seu controle, inclusive falhas de qualidade dos equipamentos impressos por terceiros (mesmo que voluntários), linhas de comunicação, telefones ou outros problemas de interconexão, vírus de computador ou falhas de software, acesso não autorizado, roubo, erros do operador, clima inclemente, terremotos ou desastres naturais, greves ou outros problemas trabalhistas, guerras, atos de terrorismo interno ou estrangeiro ou restrições governamentais.
+\n\n
+    8.Declarações do usuário\n\n
+
+Você declara e garante à E-NABLE BRASIL que não usará o Site para o qual está sendo direcionado para qualquer finalidade ilícita ou proibida por estes Termos e Condições, inclusive qualquer tentativa, bem ou malsucedida, de: (a) interromper, prejudicar ou por qualquer outro meio interferir no funcionamento ou integridade do Site ou de contornar qualquer sistema de segurança do Site; (b) coletar qualquer informação a respeito de outros usuários do Site; ou (c) extrair sistematicamente Conteúdo ou outras informações ou dados contidos no Site para utilização em bancos de dados ou em outros sites.
+\n\n
+    9.Jurisdição, independência das cláusulas\n\n
+
+Qualquer processo judicial decorrente dos presentes Termos e Condições ou do Site será apreciado exclusivamente pelos tribunais brasileiros, e você se compromete a submeter-se à jurisdição exclusiva de tais tribunais e declara, também, que eles constituem o foro mais conveniente para você.
+\n\n
+Na eventualidade de que qualquer disposição destes Termos e Condições seja considerada inexigível, a validade ou exigibilidade das demais disposições não será afetada, e a disposição inexigível será substituída por outra exigível que tenha a mesma intenção.
+
+    </string>
+    <string name="textView_COVID19Activity">Cadastre aqui o ÓRGÃO / UNIDADE  DE SAÚDE PÚBLICA OU PRIVADA, OU ÓRGÃO PÚBLICO  QUE PRESTA SERVIÇOS ESSENCIAIS que necessita de Escudos Faciais como EPI para o atendimento de paciente com COVID-19 e a instituição será cadastrada no MAPA de pontos recebimento de doação.
+Desta forma toda a comunidade maker verá sua necessidade e saberá como atende-la.</string>
+</resources>

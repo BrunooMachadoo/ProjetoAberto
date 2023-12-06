@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".Menu.QueroImprimirTermInputDataActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/textView_QueroImprimirTermInputDataActivity"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroImprimirTermInputDataActivity_Name"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroImprimirTermInputDataActivity_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroImprimirTermInputDataActivity_Name"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_Name_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_CPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroImprimirTermInputDataActivity_CPF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroImprimirTermInputDataActivity_CPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroImprimirTermInputDataActivity_CPF"
+                android:layout_marginRight="15dp"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_CPF_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroImprimirTermInputDataActivity_Phone"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroImprimirTermInputDataActivity_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroImprimirTermInputDataActivity_Phone"
+                android:layout_marginRight="15dp"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView_QueroImprimirTermInputDataActivity_Phone_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <Button
+                android:id="@+id/button_QueroImprimirTermInputDataActivity_Accept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorDefault"
+                android:text="@string/button_QueroImprimirTermInputDataActivity_Accept" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

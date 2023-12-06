@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".Menu.QueroReceberRegistredActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Email"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroReceberRegistredActivity_Email"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Email_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_InstituteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_InstituteName"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_InstituteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroReceberRegistredActivity_InstituteName"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_InstituteName_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Institute"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/radioGroup_QueroReceberRegistredActivity"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton_Public"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Public"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton_Private"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Private" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Utilizacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Utilizacao"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/radioGroup_QueroReceberRegistredActivity_Utilizacao"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton_Distribuicao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Distribuicao"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton_Proprio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Proprio" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Utilizacao_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Resume"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroReceberRegistredActivity_Resume"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Resume_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:text="Campo obrigatório" />
+
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Endereco"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroReceberRegistredActivity_Endereco"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Endereco_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_CEP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_CEP"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_CEP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="@string/editText_QueroReceberRegistredActivity_CEP"
+                android:layout_marginRight="15dp"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_CEP_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Possibilidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textView_QueroReceberRegistredActivity_Possibilidade"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/radioGroup_QueroReceberRegistredActivity_Possibilidade"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton_Possibilidade_Sim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Possibilidade_Sim"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton_Possibilidade_Nao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_Possibilidade_Nao" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Possibilidade_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Horario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Quais horários estarão disponíveis para receber as doações?"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/radioGroup_QueroReceberRegistredActivity_Horario"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton_Horario_Comercial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horário Comercial"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton_Horario_24_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24/7" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Horario_Manha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manhã" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Horario_Tarde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tarde" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Horario_Noite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noite" />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Horario_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Telefone de contato"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="Digite o telefone"
+                android:layout_marginRight="15dp"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Phone_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Cidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Cidade"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Cidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="Digite a cidade"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Cidade_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:text="Campo obrigatório" />
+
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_UF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Estado"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_UF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="Digite o estado"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_UF_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Nome da pessoa ou setor responsável pela recepção das doações "
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="Digite nome da pessoa"
+                android:layout_marginRight="15dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Name_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Qtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Caso já exista uma demanda mapeada favor informar a quantidade necessária de dispositivos. **Atentar que este é um dispositivo de uso individual, porém reutilizável após higienização. ** INFORMAR APENAS A QUANTIDADE *"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText_QueroReceberRegistredActivity_Qtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="Digite a quantidade"
+                android:layout_marginRight="15dp"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Qtd_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:text="Campo obrigatório" />
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Licence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Estes dispositivos são licenciados e sua comercialização é proibida por lei. Ao aceitar estes termos você se compromete a não comercializar os dispositivos que venha a receber."
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox_QueroReceberRegistredActivity_Licence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:text="Declaro que estou ciente que a comercialização destes dispositivos é proibida por lei e que estou solicitando estes dispositivos para distribuição na rede pública de saúde." />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Licence_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:text="Campo obrigatório" />
+
+
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Term"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Ao receber as doações, compreendo e concordo que a e-NABLE e seus voluntários não serão responsabilizados civil ou criminalmente por quaisquer situação relacionada ao uso, confecção e entrega dos dispositivos doados."
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox_QueroReceberRegistredActivity_Term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:text="Sim. Estou de acordo" />
+            <TextView
+                android:id="@+id/textView_QueroReceberRegistredActivity_Term_Alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="5dp"
+                android:background="@color/colorAlert"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:text="Campo obrigatório" />
+
+            <Button
+                android:id="@+id/button_QueroReceberRegistredActivity_Send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorDefault"
+                android:text="Enviar" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
